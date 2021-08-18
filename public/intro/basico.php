@@ -256,15 +256,38 @@ $data = [
 
 // echo $data[2]["mail"];   
 
+// array a variables discretas
+$array = [1,2,3,4];
+
+list($a,$b,$c,$d) = $array;
+
+// echo $a;
+
+// llenar array por rango
+$array = range(10,20);
+// echo $array[5];
+
+// Buscar por valor
+$array = ['Ale','Pepe','Carlos','Jose'];
+$array = ['Ale'=>12,'Pepe'=>14,'Carlos'=>16,'Jose'=>18];
+
+// if(in_array(12,$array)){
+//     echo "existe";
+// }else{
+//     echo "no existe";
+// }
+
+// // Buscar por clave
+// $array = ['Ale'=>12,'Pepe'=>14,'Carlos'=>16,'Jose'=>18];
+
+// if(array_key_exists('Ale',$array)){
+//     echo "existe";
+// }else{
+//     echo "no existe";
+// }
 
 
-
-
-
-
-
-
-
+// echo "Proximo form";
 
 
 
